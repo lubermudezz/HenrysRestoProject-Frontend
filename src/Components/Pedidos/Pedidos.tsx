@@ -8,7 +8,6 @@ import { useAppDispatch, useAppSelector } from "../../config";
 import { getCategories } from "../../redux/actions";
 import { buttonclass, select } from "../../Style/Clases/Clases";
 import DetailProduct from "../DetailProduct/DetailProduct.jsx";
-import VideoHome from '../../Style/videos/video.mp4'
 import { Category, ProductDetail, Select, StateTypes } from "../../Interfaces/Interfaces";
 import ScrollToTop from "react-scroll-to-top";
 import AOS from 'aos';
@@ -58,7 +57,6 @@ export default function Pedidos() {
             <div className="Contenedor">
                 <div className="TOP">
                     <h1>Henry's Resto Project</h1>
-                    <video autoPlay preload="auto" muted loop src={VideoHome}></video>
                 </div>
                 <button className="theme-toggle--button" aria-label="Toggle Theme" onClick={() => setDarkMode()}>
                     <span className={theme === "dark" ? "shape sun" : "shape moon"}></span>
