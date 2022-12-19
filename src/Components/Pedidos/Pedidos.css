@@ -1,7 +1,3 @@
-.TOP {
-  background-color: aliceblue;
-    margin-bottom: 10px;
-}
 
 .Contenedor_cartas {
   display: flex;
@@ -122,6 +118,8 @@
 
 .TOP {
   position: sticky;
+  background-color: aliceblue;
+  margin-bottom: 10px;
 }
 
 .TOP h1 {
