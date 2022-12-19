@@ -38,7 +38,7 @@ export default function GoogleLoggin() {
 
     function googleLogin () {
         google.accounts.id.initialize({
-            client_id: "386663355164-fbij6h4rkmrfct883apbvqc0234k6ad5.apps.googleusercontent.com",
+            client_id: "386663355164-2nqreoou3kp98jm0n05bl28l9knknk2j.apps.googleusercontent.com",
             callback: handleCallbackResponse
         });
         google.accounts.id.renderButton(
