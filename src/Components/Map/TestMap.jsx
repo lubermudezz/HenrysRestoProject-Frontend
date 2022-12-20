@@ -32,7 +32,7 @@
 
     const { isLoaded } = useJsApiLoader({
       id: 'google-map-script',
-      googleMapsApiKey: "AIzaSyAewNClPcf5NT72OcT5jul2sq4QNBaaWTE",
+      googleMapsApiKey: "AIzaSyDxk0LFZujlyGsM8MC8rbzpe8KxjMZuA2Q",
       libraries: ['places']
     })
   
