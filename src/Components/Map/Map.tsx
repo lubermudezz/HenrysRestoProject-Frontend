@@ -11,7 +11,7 @@ function Mapa() {
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyDxk0LFZujlyGsM8MC8rbzpe8KxjMZuA2Q",
+    googleMapsApiKey: "AIzaSyBcEkktrtcI1S6HvtWDNe83I75TECaSBgU",
     libraries: ['places']
   })
 
